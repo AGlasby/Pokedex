@@ -284,25 +284,25 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-dL-wde">
                                         <rect key="frame" x="0.0" y="251" width="560" height="17"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGf-Y1-v3L">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGf-Y1-v3L">
                                                 <rect key="frame" x="0.0" y="0.0" width="140" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="172" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-70-eht">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="172" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-70-eht">
                                                 <rect key="frame" x="140" y="0.0" width="140" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Pokedex ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dc-A2-eGl">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pokedex ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dc-A2-eGl">
                                                 <rect key="frame" x="280" y="0.0" width="140" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="718" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hi-xa-ojO">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="718" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hi-xa-ojO">
                                                 <rect key="frame" x="420" y="0.0" width="140" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -397,15 +397,15 @@
                     </view>
                     <connections>
                         <outlet property="baseAttackLbl" destination="pBl-te-kQV" id="RnT-M1-Iwe"/>
-                        <outlet property="currentImg" destination="pu9-j1-LBu" id="OtE-XV-kZY"/>
+                        <outlet property="currentEvoImg" destination="o13-k6-CuH" id="iFS-eR-HqX"/>
                         <outlet property="defenseLbl" destination="UoU-Cq-cB2" id="Xoo-aO-cd7"/>
                         <outlet property="descriptionLbl" destination="exf-fx-imH" id="dzn-8L-5iV"/>
+                        <outlet property="evoLbl" destination="Je0-4F-WcX" id="fa7-8G-Uw0"/>
                         <outlet property="heightLbl" destination="5Cd-70-eht" id="0wk-5r-ivA"/>
-                        <outlet property="imageLbl" destination="Ev3-sP-aqM" id="M1m-wm-ySn"/>
-                        <outlet property="nameLbl" destination="BeD-Wh-9LA" id="xnb-bV-BIi"/>
-                        <outlet property="nextEvolutionLbl" destination="Je0-4F-WcX" id="dw9-d0-Ct8"/>
-                        <outlet property="nextImg" destination="o13-k6-CuH" id="nA3-j1-ZNI"/>
-                        <outlet property="pokedexIdLbl" destination="7hi-xa-ojO" id="WI8-xc-Ufa"/>
+                        <outlet property="mainImg" destination="Ev3-sP-aqM" id="HIY-Rb-pMh"/>
+                        <outlet property="nameLbl" destination="xTN-8G-H1E" id="11g-EP-gVp"/>
+                        <outlet property="nextEvoImg" destination="o13-k6-CuH" id="dEA-Zd-BtQ"/>
+                        <outlet property="pokedexLbl" destination="7hi-xa-ojO" id="RjE-RE-XPs"/>
                         <outlet property="typeLbl" destination="n5I-7o-yli" id="oUq-6N-SKw"/>
                         <outlet property="weightLbl" destination="b9y-kF-ZNQ" id="6Cy-kJ-CBM"/>
                     </connections>
