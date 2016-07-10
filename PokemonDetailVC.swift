@@ -29,7 +29,7 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        nameLbl.text = pokemon.name
+        nameLbl.text = pokemon.name.capitalizedString
         let img = UIImage(named: "\(pokemon.pokedexId)")
         mainImg.image = img
         currentEvoImg.image = img
@@ -50,7 +50,6 @@ class PokemonDetailVC: UIViewController {
         weightLbl.text = pokemon.weight
         pokedexLbl.text = "\(pokemon.pokedexId)"
         baseAttackLbl.text = pokemon.attack
-//        evoLbl.text = pokemon.nextEvolutionTxt
 
         if pokemon.nextEvolutionId == "" {
             evoLbl.text = "No evolutions for \(pokemon.name)"
