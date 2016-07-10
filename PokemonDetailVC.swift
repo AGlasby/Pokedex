@@ -50,7 +50,7 @@ class PokemonDetailVC: UIViewController {
         weightLbl.text = pokemon.weight
         pokedexLbl.text = "\(pokemon.pokedexId)"
         baseAttackLbl.text = pokemon.attack
-        evoLbl.text = pokemon.nextEvolutionTxt
+//        evoLbl.text = pokemon.nextEvolutionTxt
 
         if pokemon.nextEvolutionId == "" {
             evoLbl.text = "No evolutions for \(pokemon.name)"
@@ -63,6 +63,7 @@ class PokemonDetailVC: UIViewController {
 
             if pokemon.nextEvolutionLvl != "" {
                 str += " - Level \(pokemon.nextEvolutionLvl)"
+                evoLbl.text = str
             }
         }
     }
